@@ -9,7 +9,7 @@ infi*Riff* will be an **AI** project made of **HTML, CSS and JavaScript** which 
 ### How to join: 
 - **Discord Chat Server for *communication of code and ideas*:** <https://discord.gg/2ZxTCkQ>
 - **GitHub Pull Requests (*Collaborate Here*):** <https://github.com/WebCoder49/infiRiff/pulls>
-- **Test out infi*Riff* so far on your browser: ** <https://webcoder49.github.io/infiRiff/>
+- **Test out infi*Riff* so far on your browser:** <https://webcoder49.github.io/infiRiff/>
 
 **Please try to include comments in your code to make it easier to understand.**
 
