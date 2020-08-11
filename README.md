@@ -18,5 +18,6 @@ By joining the Discord Server or replying/collaborating on GitHub, **you agree t
 >   - You **will not** use inappropriate or offensive language on chats/in your code
 >   - You **will not** post inappropriate images/files/emojis
 >   - You **will not** place any malware or code which runs/downloads/etc. malware in this project.
+>   - You **will not** edit/delete other people's code without the permission of me, WebCoder49.
 > 
 > **If you break any of the rules above, you risk being reported or kicked out of the Discord Server.**
