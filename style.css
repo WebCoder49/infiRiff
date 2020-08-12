@@ -98,8 +98,8 @@ i {
 /*Play/Stop button styles*/
 #main-button {
     position: relative;
-    width: 70vw;
-    height: 100%;
+    width: 70vmin;
+    height: 70vmin;
     top: 0;
     left: 30vw;
     border-radius: 10vw;
