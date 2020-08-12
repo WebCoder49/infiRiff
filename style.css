@@ -2,12 +2,28 @@ body {
     background-color: black;
     color: white;
     font-family: 'Audiowide', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*Header styles*/
+#header {
+    width: 80vw;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20vw;
+    top: 0;
 }
 h1 {
     text-align: center;
     color: lightblue;
-    font-size: 10vmin;
-    animation: textcolor 10s infinite;
+    font-size: 8vmin;
+    animation: textcolor 20s infinite;
+    display: block;
+    margin: 1vmin;
+    padding: 0;
 }
 @keyframes textcolor {
     0% {
@@ -17,7 +33,7 @@ h1 {
         color: aquamarine;
     }
     50% {
-        color: white;
+        color: #ffaa00;
     }
     75% {
         color: magenta;
@@ -34,7 +50,7 @@ h1 {
         color: aquamarine;
     }
     50% {
-        color: white;
+        color: #ffaa00;
     }
     75% {
         color: magenta;
@@ -53,4 +69,59 @@ i {
     padding: 0;
     margin: 0;
     display: block;
+}
+/*Logo Styles*/
+#logo {
+    width: 20vw;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*middle section styles*/
+#middle-section {
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+/*Play/Stop button styles*/
+#main-button {
+    position: relative;
+    width: 70vw;
+    height: 100%;
+    top: 0;
+    left: 30vw;
+    border-radius: 10vw;
+    border: 0;
+    margin: 0;
+    padding: 10vw;
+    background-color: #444444;
+}
+#main-button #icon {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    transition: all 0.5s;
+}
+#main-button:hover #icon {
+    height: 100%;
+    width: 100%;
+    background-color: #ffff88;
+}
+#main-button.play #icon {
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+#main-button.stop #icon {
+    clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
 }
